@@ -13,7 +13,7 @@ $(document).on("ready", function(){
 //form submit search
 $("form").on("submit", searchReq)
   function searchReq(event) {
-  	event.preventDefault(); // might not need w/ button
+  	event.preventDefault();
   	$.ajax( {
   	  method:"GET",
   		url: "http://api.giphy.com/v1/gifs/search",
