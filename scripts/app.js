@@ -29,6 +29,7 @@ $("form").on("submit", searchReq)
 //acccess to response, success call back example from notes.
 //foreach
   function onSuccess(responseData){
+    $('.gif-gallery').text('');
     console.log(responseData);
     var imageArray = responseData.data;
     imageArray.forEach(function(object) {
