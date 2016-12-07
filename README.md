@@ -7,7 +7,16 @@ https://github.com/Giphy/GiphyAPI
 Basic Requirements:
 
 * A user can see the top 25 gifs from Giphy (on page load)
+
+
+url="http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC"
+
+
+
 * A user can search for gifs, using the input field
+}
+
+
 * Super Bonus: A user can "load more" gifs
 
 Your site should look something like:
